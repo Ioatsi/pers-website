@@ -42,7 +42,7 @@ html, body {
     width: 30%;
     border-radius: 50%;
     outline-style: outset;
-    outline-color: #dfdfdf5e;
+    outline-color: rgb(223 223 223 / 4%);
     outline-width: 1vw;
 }
 
@@ -53,12 +53,17 @@ html, body {
 }
 .mail-icon{
     padding-inline: 2vw;
-    width: 6vw;
+    width: 5vw;
 }
 .icons:hover{
     transform: scale(1.1);
 }
 .skill-icons{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     width: 45vw;
     margin-inline: 2vw;  
     margin-block: 1vw;  
